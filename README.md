@@ -3,7 +3,7 @@
 Here is included a evaluation python scripts for simulated genome assembly, and we have five criterias to assess simulated assembly comprehensively. Three criterias are denoted for the completeness assessment for the simulated data, namely complete rate (CR), single-copy complete rate(SCR), and duplicated complete rate (DCR).The rest two criterias are denoted for accuracy assessment, one is the average proportion of the largest category (APLC), another is average distance difference (ADF).
 
 The more information about the five criterias please refer this article:  
-`Comprehensive benchmarking of de novo assemblers of HiFi sequencing data for complex eukaryotic genomes and metagenomes`
+`Comprehensive Assessment of Eleven de novo HiFi Assemblers on Complex Eukaryotic Genomes and Metagenomes`
 
 # Usage
     python Assessment.py [-h] -i INPUT -r REFERENCE [-k KMER_LENGTH] [-s SAMPLE] -o OUT_PREFIX
