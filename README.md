@@ -16,10 +16,8 @@ Varying coverage for eukaryotic genomes:
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_coverage/ ```  
 Varying heterozygous for eukaryotic genomes:  
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_heterozygous/ ```  
-
 Varying precious rate for eukaryotic genomes:  
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_precious_rate/ ```  
-
 For metagenomes:  
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/metagemones/ ```  
 
