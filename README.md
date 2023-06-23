@@ -27,12 +27,12 @@ GCC version 4.8.1 or higher (for c++11) R version 3.2.3 or higher (for plotting)
 ## Installation
 You can directly download the binary files here. If you want to install PRSice, all you have to do is (The binary file will located in PRSice)
 git clone https://github.com/choishingwan/PRSice.gitcd PRSice
-g++ --std=c++11 -I inc/ -isystem lib/ -DNDEBUG -O3 -march=native src/*.cpp -lz -lpthread -o PRSice
+``` g++ --std=c++11 -I inc/ -isystem lib/ -DNDEBUG -O3 -march=native src/*.cpp -lz -lpthread -o PRSice ```
 Or if you have CMake version 3.1 or higher, you can do (The binary file will located in PRSice/bin)
-git clone https://github.com/choishingwan/PRSice.gitcd PRSice
+``` git clone https://github.com/choishingwan/PRSice.gitcd PRSice
 mkdir buildcd build
 cmake ../
-make
+make ```
 
 ## Rosalind users
 You can compile a static version using the following command
