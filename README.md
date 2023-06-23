@@ -38,7 +38,7 @@ Or if you have CMake version 3.1 or higher, you can do (The binary file will loc
 ## Rosalind users
 You can compile a static version using the following command  
 ``` git clone https://github.com/choishingwan/PRSice.gitcd PRSice ```  
-``` make```  
+``` make ```  
 
 ## Citation
 If you ASSca5 in any published work, please cite the following manuscript:
