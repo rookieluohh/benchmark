@@ -21,7 +21,7 @@ For metagenomes:
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/metagemones/ ```  
 
 ## Prerequisite
-GCC version 4.8.1 or higher (for c++11) R version 3.2.3 or higher (for plotting)
+> * Python v3 (tested with Python v3.7.12) or higher  * R v4 (tested with R v4.1.2) or higher (for plotting)
 
 ## Installation
 You can directly download the binary files here. If you want to install PRSice, all you have to do is (The binary file will located in PRSice)  
@@ -36,7 +36,7 @@ Or if you have CMake version 3.1 or higher, you can do (The binary file will loc
 
 ## Rosalind users
 You can compile a static version using the following command  
-``` git clone https://github.com/choishingwan/PRSice.gitcd PRSice ```  
+``` git clone https://github.com/rookieluohh/benchmarke.gitcd benchmark ```  
 ``` make ```  
 
 ## Citation
