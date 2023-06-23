@@ -26,14 +26,15 @@ For metagenomes:
 > * shell
 
 ## Installation
-You can compile a static version using the following command  
+You can compile a static version using the following command:  
 ``` git clone https://github.com/rookieluohh/benchmarke.gitcd benchmark ```  
 ``` make ``` 
 
 ## Usage
+A typical assessment command line looks like:
     python Assessment.py [-h] -i INPUT -r REFERENCE [-k KMER_LENGTH] [-s SAMPLE] -o OUT_PREFIX  
 
-In order to run this script successfully, these parameters must be passed in. `-i` is a parament passes in the input file of the script, and the input file must be the assembly with fasta format; `-r` passes in the reference genome file with fasta format; `-k` means the k-mer length used in the script to assess the assembly, and the default value is 21; `-s` means the number of reference unique k-mer used in the the assessment, the default value is "all", using all reference unique kmers to evaluate the assembly will be slow for some complex genomes, so randomly sampling some reference unique kmers for evaluation will greatly speed up the script and memory consumption, and we recommend the k is 200,000; `-o` passes in the prefix of output file name.
+where `-i` is a parament passes in the input file of the script, and the input file must be the assembly with fasta format; `-r` passes in the reference genome file with fasta format; `-k` means the k-mer length used in the script to assess the assembly, and the default value is 21; `-s` means the number of reference unique k-mer used in the the assessment, the default value is "all", using all reference unique kmers to evaluate the assembly will be slow for some complex genomes, so randomly sampling some reference unique kmers for evaluation will greatly speed up the script and memory consumption, and we recommend the k is 200,000; `-o` passes in the prefix of output file name.
 
 ## Citation
 If you ASSca5 in any published work, please cite the following manuscript:  
