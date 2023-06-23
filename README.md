@@ -23,7 +23,6 @@ For metagenomes:
 ## Prerequisite
 > * Python v3 (tested with Python v3.7.12) or higher
 > * pandas v1.1.4
-> * R v4 (tested with R v4.1.2) or higher (for plotting)
 > * shell
 
 ## Installation
