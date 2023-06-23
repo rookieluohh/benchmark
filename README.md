@@ -32,6 +32,8 @@ You can compile a static version using the following command:
 ``` cd benchmark ``` 
 
 ## Usage
+Before you run this script, you must make sure `jellyfish` is already installed in your environment.  
+
 A typical assessment command line looks like:  
 
     python Assessment.py [-h] -i INPUT -r REFERENCE [-k KMER_LENGTH] [-s SAMPLE] -o OUT_PREFIX  
