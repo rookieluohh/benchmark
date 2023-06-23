@@ -19,10 +19,10 @@ ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_precious_r
 For metagenomes:
 ftp://ftp.agis.org.cn/~panweihua/benchmark/metagemones/
 
-# Prerequisite
+## Prerequisite
 GCC version 4.8.1 or higher (for c++11) R version 3.2.3 or higher (for plotting)
 
-# Installation
+## Installation
 You can directly download the binary files here. If you want to install PRSice, all you have to do is (The binary file will located in PRSice)
 git clone https://github.com/choishingwan/PRSice.gitcd PRSice
 g++ --std=c++11 -I inc/ -isystem lib/ -DNDEBUG -O3 -march=native src/*.cpp -lz -lpthread -o PRSice
@@ -32,14 +32,14 @@ mkdir buildcd build
 cmake ../
 make
 
-# Rosalind users
+## Rosalind users
 You can compile a static version using the following command
 git clone https://github.com/choishingwan/PRSice.gitcd PRSice
 make
 
-Citation
+## Citation
 If you ASSca5 in any published work, please cite the following manuscript:
 xxxxxx
 
-Note to Self
+## Note to Self
 PLINK PRS range is inclusive. e.g. 0 - 0.5 includes also SNPs with p-value of 0 and 0.5
