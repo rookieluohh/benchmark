@@ -34,7 +34,7 @@ You can compile a static version using the following command:
 A typical assessment command line looks like:
     python Assessment.py [-h] -i INPUT -r REFERENCE [-k KMER_LENGTH] [-s SAMPLE] -o OUT_PREFIX  
 
-where `-i` is a parament passes in the input file of the script, and the input file must be the assembly with fasta format; `-r` passes in the reference genome file with fasta format; `-k` means the k-mer length used in the script to assess the assembly, and the default value is 21; `-s` means the number of reference unique k-mer used in the the assessment, the default value is "all", using all reference unique kmers to evaluate the assembly will be slow for some complex genomes, so randomly sampling some reference unique kmers for evaluation will greatly speed up the script and memory consumption, and we recommend the k is 200,000; `-o` passes in the prefix of output file name.
+where `-i` sets a input file of fasta format in use; `-r` sets the reference genome of assembly with fasta format; `-k` specifies the k-mer length used in the script to assess the assembly, and the default value is 21; `-s` means the number of reference unique k-mer used in the the assessment, the default value is "all", using all reference unique kmers to evaluate the assembly will be slow for some complex genomes, so randomly sampling some reference unique kmers for assessment will greatly speed up the script and memory consumption, and we recommend the k is 200,000; `-o` specifies the prefix of output files.
 
 ## Citation
 If you ASSca5 in any published work, please cite the following manuscript:  
