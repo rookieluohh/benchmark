@@ -23,6 +23,7 @@ For metagenomes:
 ## Prerequisite
 > * Python v3 (tested with Python v3.7.12) or higher
 > * pandas v1.1.4
+> * jellyfish v2.3.0
 > * shell
 
 ## Installation
