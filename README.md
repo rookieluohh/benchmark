@@ -35,7 +35,7 @@ A typical assessment command line looks like:
 
     python Assessment.py [-h] -i INPUT -r REFERENCE [-k KMER_LENGTH] [-s SAMPLE] -o OUT_PREFIX  
 
-where `-i` sets a input file of fasta format in use; `-r` sets the reference genome of assembly with fasta format; `-k` specifies the k-mer length used to assess the assembly, and the default value is `21`; `-s` means the number of reference unique k-mer used in the the assessment, the default value is `"all"`, using all reference unique kmers to evaluate the assembly will be slow for some complex genomes, so randomly sampling some reference unique kmers for assessment will greatly speed up the script and memory consumption, and we recommend the k is `200,000`; `-o` specifies the prefix of output files. 
+where `-i` sets a input file of fasta format in use; `-r` sets the reference genome of assembly with fasta format; `-k` specifies the k-mer length used to assess the assembly, and the default value is `21`; `-s` means the number of reference unique k-mer used in the the assessment, the default value is `"all"`, using all reference unique kmers to assess the assembly will be slow for some complex genomes, so randomly sampling some reference unique kmers for assessment will greatly speed up the script and memory consumption, and we recommend the k is `200,000`; `-o` specifies the prefix of output files. 
 
 For example:  
 
