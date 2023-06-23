@@ -23,7 +23,6 @@ For metagenomes:
 ## Prerequisite
 > * Python v3 (tested with Python v3.7.12) or higher
 > * pandas v1.1.4
-> * jellyfish v2.3.0
 > * shell
 
 ## Installation
@@ -32,8 +31,6 @@ You can compile a static version using the following command:
 ``` cd benchmark ``` 
 
 ## Usage
-Before you run this script, you must make sure `jellyfish` is already installed in your environment.  
-
 `Assessment.py` is a python script used a reference genome and a assembly to assess synthetic datasets, which contains 5 parameters:  
 
     python Assessment.py [-h] -i INPUT -r REFERENCE [-k KMER_LENGTH] [-s SAMPLE] -o OUT_PREFIX  
