@@ -27,8 +27,8 @@ For metagenomes:
 
 ## Installation
 You can compile a static version using the following command:  
-``` git clone https://github.com/rookieluohh/benchmarke.gitcd benchmark ```  
-``` make ``` 
+``` git clone https://github.com/rookieluohh/benchmark ```  
+``` cd benchmark ``` 
 
 ## Usage
 A typical assessment command line looks like:  
