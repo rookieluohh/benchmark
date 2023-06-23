@@ -5,9 +5,9 @@ ASSca5 concludes 5 criteria for the assessment of synthetic datasets, three crit
 ASSca5 is a software package written in python. ASSca5 runs as a command-line program with a variety of user-options and is freely available for download below, compatible for Unix/Linux/Mac OS.
 
 ## Synthetic Datasets
-All synthetic datasets could be obtained with the following script
-wget -r -c -nH -np ftp://ftp.agis.org.cn/~panweihua/benchmark/
-individual datasets could be gained from the following address:
+All synthetic datasets could be obtained with the following script  
+``` wget -r -c -nH -np ftp://ftp.agis.org.cn/~panweihua/benchmark/ ```  
+individual datasets could be gained from the following address:  
 Varying ploidy for eukaryotic genomes:  
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_ploidy/ ```  
 Varying coverage for eukaryotic genomes:  
