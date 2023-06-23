@@ -40,8 +40,8 @@ You can compile a static version using the following command
 ``` make ```  
 
 ## Citation
-If you ASSca5 in any published work, please cite the following manuscript:
-xxxxxx
+If you ASSca5 in any published work, please cite the following manuscript:  
+Comprehensive Assessment of Eleven de novo HiFi Assemblers on Complex Eukaryotic Genomes and Metagenomes
 
 ## Note to Self
 PLINK PRS range is inclusive. e.g. 0 - 0.5 includes also SNPs with p-value of 0 and 0.5
