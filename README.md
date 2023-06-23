@@ -34,7 +34,7 @@ You can compile a static version using the following command:
 ## Usage
 Before you run this script, you must make sure `jellyfish` is already installed in your environment.  
 
-`Assessment.py` contains 5 parameters:  
+`Assessment.py` is a python script used a reference genome and a assembly to assess synthetic datasets, which contains 5 parameters:  
 
     python Assessment.py [-h] -i INPUT -r REFERENCE [-k KMER_LENGTH] [-s SAMPLE] -o OUT_PREFIX  
 
