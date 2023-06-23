@@ -21,7 +21,7 @@ For metagenomes:
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/metagemones/ ```  
 
 ## Prerequisite
-> * Python v3 (tested with Python v3.7.12) or higher  * R v4 (tested with R v4.1.2) or higher (for plotting)
+> *Python v3 (tested with Python v3.7.12) or higher  * R v4 (tested with R v4.1.2) or higher (for plotting)
 
 ## Installation
 You can directly download the binary files here. If you want to install PRSice, all you have to do is (The binary file will located in PRSice)  
