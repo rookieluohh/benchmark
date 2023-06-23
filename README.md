@@ -1,10 +1,10 @@
 # ASSca5 Criteria for Completeness and Accuracy of Assemblies Assessment
-# Assessment
+## Assessment
 ASSca5 is a software package for the completeness and accuracy assessment for genome assemblies.
 ASSca5 concludes 5 criteria for the assessment of synthetic datasets, three criteria are used to measure completeness, namely completeness rate (CR), single-copy completeness rate (SCR), and duplicated completeness rate (DCR). To evaluate the assembly accuracy, we announces two criteria, the average proportion of the largest category (APLC), and the average distance difference (ADF). 
 ASSca5 is a software package written in python. ASSca5 runs as a command-line program with a variety of user-options and is freely available for download below, compatible for Unix/Linux/Mac OS.
 
-# Synthetic Datasets
+## Synthetic Datasets
 All synthetic datasets could be obtained with the following script
 wget -r -c -nH -np ftp://ftp.agis.org.cn/~panweihua/benchmark/
 individual datasets could be gained from the following address:
