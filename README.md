@@ -10,7 +10,7 @@ All synthetic datasets could be obtained with the following script
 ``` wget -r -c -nH -np ftp://ftp.agis.org.cn/~panweihua/benchmark/ ```  
 individual datasets could be gained from the following address:  
 > Varying ploidy for eukaryotic genomes:  
-``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_ploidy/ ```  
+    ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_ploidy/  
 Varying coverage for eukaryotic genomes:  
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_coverage/ ```  
 Varying heterozygous for eukaryotic genomes:  
