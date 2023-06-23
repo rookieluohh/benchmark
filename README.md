@@ -11,13 +11,13 @@ individual datasets could be gained from the following address:
 Varying ploidy for eukaryotic genomes:
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_ploidy/ ```
 Varying coverage for eukaryotic genomes:
-``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_coverage/
+``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_coverage/ ```
 Varying heterozygous for eukaryotic genomes:
-ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_heterozygous/
+``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_heterozygous/ ```
 Varying precious rate for eukaryotic genomes:
-ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_precious_rate/
+``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_precious_rate/ ```
 For metagenomes:
-ftp://ftp.agis.org.cn/~panweihua/benchmark/metagemones/
+``` ftp://ftp.agis.org.cn/~panweihua/benchmark/metagemones/ ```
 
 ## Prerequisite
 GCC version 4.8.1 or higher (for c++11) R version 3.2.3 or higher (for plotting)
