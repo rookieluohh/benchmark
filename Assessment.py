@@ -383,7 +383,7 @@ if __name__ == "__main__":
     ref_seq = opt.reference
     kmer_len = opt.kmer_length
     prefix = opt.out_prefix
-    sample_num = opt.sample
+    sample_num = int(opt.sample)
     asb_seq_path = os.path.join(path,asb_seq)
     ref_seq_path = os.path.join(path,ref_seq)
     assembleAssessment(ref_seq_path, asb_seq_path, kmer_len, sample_num, prefix)
