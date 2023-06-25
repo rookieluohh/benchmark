@@ -22,7 +22,7 @@ Varying precious rate for eukaryotic genomes:
 For metagenomes:  
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/metagemones/ ```  
 
-And for windows user, you can access all synthetic datasets with following URL:
+And for windows user, you can access all synthetic datasets with following URL:  
 ``` http://ftp.agis.org.cn:8888/~panweihua/benchmark/ ```
 
 
