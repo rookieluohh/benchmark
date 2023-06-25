@@ -20,7 +20,7 @@ Varying heterozygous for eukaryotic genomes:
 Varying precious rate for eukaryotic genomes:  
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/assembly_software_benchmark/eukaryotic_genomes/varying_precious_rate/ ```  
 For metagenomes:  
-``` ftp://ftp.agis.org.cn/~panweihua/benchmark/assembly_software_benchmark/metagemones/ ```  
+``` ftp://ftp.agis.org.cn/~panweihua/benchmark/assembly_software_benchmark/metagenomes/ ```  
 
 And for windows user, you can access all synthetic datasets with following URL:  
 ``` http://ftp.agis.org.cn:8888/~panweihua/benchmark/ ```
