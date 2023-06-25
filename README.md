@@ -8,7 +8,7 @@ ASSca5 is a software package written in python. ASSca5 runs as a command-line pr
 
 
 ## Synthetic Datasets
-For linux user, all synthetic datasets could be obtained with the following script  
+For linux user, all synthetic datasets could be obtained with the following script:  
 ``` wget -r -c -nH -np ftp://ftp.agis.org.cn/~panweihua/benchmark/ ```  
 individual datasets could be gained from the following address:  
 > Varying ploidy for eukaryotic genomes:  
