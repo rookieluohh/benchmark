@@ -8,7 +8,7 @@ ASSca5 is a software package written in python. ASSca5 runs as a command-line pr
 
 
 ## Synthetic Datasets
-All synthetic datasets could be obtained with the following script  
+For linux user, all synthetic datasets could be obtained with the following script  
 ``` wget -r -c -nH -np ftp://ftp.agis.org.cn/~panweihua/benchmark/ ```  
 individual datasets could be gained from the following address:  
 > Varying ploidy for eukaryotic genomes:  
@@ -21,6 +21,10 @@ Varying precious rate for eukaryotic genomes:
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/eukaryotic_genomes/varying_precious_rate/ ```  
 For metagenomes:  
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/metagemones/ ```  
+
+And for windows user, you can access all synthetic datasets with following URL:
+``` http://ftp.agis.org.cn:8888/~panweihua/benchmark/ ```
+
 
 ## Prerequisite
 > * Python v3 (tested with Python v3.7.12) or higher
