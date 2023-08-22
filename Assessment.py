@@ -385,6 +385,8 @@ if __name__ == "__main__":
     prefix = opt.out_prefix
     if opt.sample != "all":
         sample_num = int(opt.sample)
+    else:
+        sample_num = opt.sample
     asb_seq_path = os.path.join(path,asb_seq)
     ref_seq_path = os.path.join(path,ref_seq)
     assembleAssessment(ref_seq_path, asb_seq_path, kmer_len, sample_num, prefix)
