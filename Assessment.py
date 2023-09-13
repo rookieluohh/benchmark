@@ -39,7 +39,7 @@ def integrateReadLine(fa, prefix):
 
 def reverseCompleKmer(kmer):
     reverse_complementary_kmer_list = []
-    base_dic = {"A":"T","T":"A","C":"G","G":"C","N":"N","a":"T","t":"A","c":"G","g":"C"}
+    base_dic = {"A":"T","T":"A","C":"G","G":"C","N":"N","a":"T","t":"A","c":"G","g":"C","n":"N"}
     for base in list(kmer[::-1]):
         reverse_complementary_kmer_list.append(base_dic[base])
     reverse_complementary_kmer = "".join(reverse_complementary_kmer_list)
