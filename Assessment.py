@@ -227,7 +227,7 @@ def assembleAssessment(ref_fa, asb_fa, kmer_length, sample_num, prefix):
         refHeaderKmer = getHeaderKmer(prefix + "_" + ref_fa.split("/")[-1], refHeaderKmerPos, kmer_length)
     else:
         refheaderKmer = getHeaderKmer(prefix + "_" + ref_fa.split("/")[-1], refHeaderKmerPos, kmer_length)
-        refHeaderKmer = randomselectkmer(refheaderKmer,sample_num)
+        refHeaderKmer = randomselectkmer(refheaderKmer,int(sample_num))
     refheaderkmer = None
     refHeaderKmerPos = None
     asbHeaderKmer = getAsbkmer(prefix + "_" + asb_fa.split("/")[-1],prefix + "_" + ref_fa.split("/")[-1],refHeaderKmer,kmer_length)
