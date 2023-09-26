@@ -43,7 +43,7 @@ def reverseCompleKmer(kmer):
     for base in list(kmer[::-1]):
         reverse_complementary_kmer_list.append(base_dic[base])
     reverse_complementary_kmer = "".join(reverse_complementary_kmer_list)
-    return min([kmer, reverse_complementary_kmer])
+    return min([kmer.upper(), reverse_complementary_kmer.upper()])
 
 def refUniqueKmerSearch(ref, kmer_length):
     fi = open(ref, "r")
