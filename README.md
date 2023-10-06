@@ -18,7 +18,7 @@ Varying coverage for eukaryotic genomes:
 Varying heterozygous for eukaryotic genomes:  
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/assembly_software_benchmark/eukaryotic_genomes/varying_heterozygous/ ```  
 Varying precious rate for eukaryotic genomes:  
-``` ftp://ftp.agis.org.cn/~panweihua/benchmark/assembly_software_benchmark/eukaryotic_genomes/varying_precious_rate/ ```
+``` ftp://ftp.agis.org.cn/~panweihua/benchmark/assembly_software_benchmark/eukaryotic_genomes/varying_precious_rate/ ``` 
 Human diploid genomes:  
 ``` ftp://ftp.agis.org.cn/~panweihua/benchmark/assembly_software_benchmark/eukaryotic_genomes/human_diploid/ ```  
 For metagenomes:  
