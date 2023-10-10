@@ -178,6 +178,7 @@ def randomselectkmer(refkmerdic,sample_num):
     for key,value in refkmerdic.items():
         for k,v in value.items():
             kmerdic[k] = 0
+    seed(111)
     mylist = sample(list(kmerdic.items()),sample_num)
     newkmerdic = {}
     for i in mylist:
